@@ -1,0 +1,115 @@
+* {
+    padding: 0px;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    min-height: 50px;
+}
+
+.logo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+nav {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    word-spacing: 10px;
+}
+
+a {
+    word-spacing: 0px;
+    text-decoration: none;
+    outline: 3px solid red;
+    color: red;
+    border-radius: 20%;
+    padding: 5px;
+}
+
+footer {
+    margin-top: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 50px;
+    background-color: black;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright {
+    position: absolute;
+    right: 10px;
+    color: red;
+}
+
+.logo2 {
+    display: flex;
+    position: absolute;
+    left: 0px;
+}
+
+
+
+h1 {
+    color: rgb(114, 210, 114);
+}
+
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    max-width: 300px;
+}
+
+.my-name,
+.desc {
+    border: solid red;
+    margin: 5px auto;
+    padding: 5px;
+    min-width: 280px;
+    text-align: center;
+    background-color: rgb(173, 154, 154);
+}
+
+#my-dishes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+
+#my-dishes div img {
+    flex: auto;
+    padding: 10px;
+    border: solid;
+}
+
+#my-dishes div {
+    flex: auto;
+    margin: 10px;
+}
+
+
+form {
+    text-align: center;
+    border: solid;
+    max-width: 280px;
+    padding: 10px;
+}
+
+.main-about {
+    padding: 70px;
+}
